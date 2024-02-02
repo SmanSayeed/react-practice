@@ -1,0 +1,10 @@
+.currency-input-box{
+    height: 100px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: var(--light-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}

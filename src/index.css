@@ -1,0 +1,21 @@
+:root{
+   --orange-color: #DA722C ;
+   --dark-blue-color: #057ADA ;
+   --light-color: #E8F7FB ;
+   --dark-color: #070917 ;
+   --light-blue-color: #6F7DFB
+   /* --blue-color: #023047 ; */
+}
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: var(--light-color);
+    font-family: 'Poppins', sans-serif;
+}
+.wrapper{
+    max-width: 1134px;
+    margin: 0 auto;
+    background-color: red;
+}
