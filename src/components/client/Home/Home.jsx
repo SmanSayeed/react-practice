@@ -17,6 +17,7 @@ export default function Home() {
       <NavLink to="/blog" className="item">Blog</NavLink>
       <NavLink to="/todo" className="item">Todo</NavLink>
       <NavLink to="/counter" className="item">Counter</NavLink>
+      <NavLink to="/store" className="item">Store</NavLink>
     </div>
      <div className="">
      <Outlet/>

@@ -19,6 +19,7 @@ import { login, logout } from "./store/authSlice.js"
 import Todo from "./components/client/Todo/Todo.jsx"
 import TodoItem from "./components/client/Todo/TodoItem.jsx"
 import Counter from "./components/client/Counter/Counter.jsx"
+import Store from "./components/client/Store/Store.jsx"
 function App() {
 // console.log(conf.appwriteUrl)
 const [loading,setLoading] = useState(true);
@@ -54,6 +55,7 @@ if(loading) return "Loading...";
               <Route path="/todo" element={<Todo/>} />
               <Route path="/todo/:item" element={<TodoItem/>} />
               <Route path="/counter" element={<Counter/>} />
+              <Route path="/store" element={<Store/>} />
               <Route path="*" element={<Error/>} />
             </Route>
             <Route path="/about" element={<About/>} />

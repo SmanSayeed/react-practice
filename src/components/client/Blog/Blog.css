@@ -1,0 +1,25 @@
+.blogposts{
+    border:1px solid red;
+    padding:10px;
+    border-radius: 4px;
+    margin:10px 0px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.postscard{
+    width: 23%;
+    background-color: wheat;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 4px 4px 4px black;
+    height: 200px;
+    overflow-y: auto;
+}
+.blogform{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
